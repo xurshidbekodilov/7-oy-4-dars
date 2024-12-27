@@ -1,0 +1,68 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f3f3f3;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drop-zone {
+  width: 200px;
+  height: 100px;
+  border: 2px dashed #ccc;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-items {
+  margin-top: 10px;
+}
+
+.draggable-items div {
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  cursor: grab;
+}
+
+.format-buttons button {
+  margin-right: 5px;
+}
